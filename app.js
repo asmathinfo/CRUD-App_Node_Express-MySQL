@@ -18,6 +18,19 @@ app.use(bodyParser.json());
 app.use(express.static("public"))
 
 
+// Tamplates Engine
+const handlebars = exphbs.create({extname:".hbs"});
+app.engine('hbs',handlebars.engine);
+app.set("view engine","hbs");
+
+
+//Router 
+app.get('/',(req,res)=>{
+res.render("home")
+});
+
+
+
 
 // listen Port 
 app.listen(port,()=>{                                       // app.get('/', function(req, res){
