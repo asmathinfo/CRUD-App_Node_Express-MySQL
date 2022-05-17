@@ -25,7 +25,7 @@ h1{
     font-size:20px;
     color: crimson;
     padding: 10px;
-    border-bottom:1px solid rgb(6, 221, 17);
+    border-bottom:1px solid rgb(5, 8, 5);
 }
 
 table{
@@ -56,5 +56,20 @@ table tbody td{
 
 
 table tbody tr:nth-child(even){
-    background-color: rgba(209, 250, 143, 0.781);
+    background-color: rgba(143, 211, 250, 0.781);
+}
+
+.edit,.delete{
+    text-decoration: none;
+    color: rgb(245, 242, 241);
+    background-color: rgb(11, 86, 224);
+    display: block;
+    width: 35px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px ;
+}
+
+.delete{
+    background-color: rgb(243, 7, 7);
 }
