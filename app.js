@@ -4,6 +4,7 @@ const bodyParser = require ("body-parser"); // return Datas in JSON format and w
 const mysql = require("mysql");
 
 require("dotenv").config(); // using .ENV inclue constant value in project 
+// we can access data in any page common
 
 
 const app =express();    // creating object for express 
@@ -22,6 +23,23 @@ app.use(express.static("public"))
 const handlebars = exphbs.create({extname:".hbs"});
 app.engine('hbs',handlebars.engine);
 app.set("view engine","hbs");
+
+
+// MYSQL DB Connection
+const con = mysql.createConnection({
+    host: "localhost",
+    database: "asmad_crud",
+    user: "root",
+    password: ""
+  });
+  
+  con.connect(function(err) {
+    if (err) throw err;
+    console.log("Connected!");
+  });
+
+// Check DB Connection
+
 
 
 //Router 
