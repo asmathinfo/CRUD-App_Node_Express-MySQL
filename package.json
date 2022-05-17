@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL.git"
   },
-  "author": "",
+  "author": "Buhary Asmath",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL/issues"
   },
-  "homepage": "https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL#readme"
+  "homepage": "https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql": "^2.18.1"
+  }
 }
