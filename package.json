@@ -1,0 +1,19 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL/issues"
+  },
+  "homepage": "https://github.com/asmathinfo/CRUD-App_Node_Express-MySQL#readme"
+}
